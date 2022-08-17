@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1f1f1f;
+    background-color: rgb(209, 202, 202);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wheelBox{
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(209, 202, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    /* transform:skewX(30deg); */
+    /* transform: rotateY(100deg); */
+    /* background-color: #1f1f1f; */
+    box-shadow: inset 0px 0px 10px #1f1f1f;
+}
+.rod1{
+    height: 100%;
+    position: relative;
+    width: 5%;
+    background-image:  linear-gradient(to bottom, red, yellow,blue,yellow,red);
+    border-radius: 20px;
+    transform-origin: center;
+    left:5%;
+}
+.rod2{
+    height: 100%;
+    position: relative;
+    width: 5%;
+    background-image:  linear-gradient(to bottom, red, yellow,blue,yellow,red);
+    border-radius: 20px;
+    transform: rotate(120deg);
+    transform-origin: center;
+    right: 0%;
+}
+.rod3{
+    height: 100%;
+    position: relative;
+    width: 5%;
+    background-image:  linear-gradient(to bottom, red, yellow,blue,yellow,red);
+    border-radius: 20px;
+    transform: rotate(240deg);
+    transform-origin: center;
+    right: 5%;
+    
+}
+.slider{
+    /* padding: 50px; */
+    margin: 50px;
+}
